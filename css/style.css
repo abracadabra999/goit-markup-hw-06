@@ -1,0 +1,16 @@
+/* ======= page style ======= */
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {cursor: pointer;}
+/* ======= page style ======= */
+
+/* ======= mein menu style ======= */
+.logo-style {
+    color: #4D5AE5;
+}
+
+/* ======= mein menu style ======= */
