@@ -48,9 +48,10 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.menu-item-main {
+.menu-item-main .menu.link {
 color: #2e2f42;
 }
+
 .menu-item-main:hover,
 .menu-item-main:focus {
     color: #404bbf;
