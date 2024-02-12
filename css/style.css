@@ -13,6 +13,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    display: block;
 }
 
 /* ======= logo style ======= */
@@ -135,6 +136,9 @@ color: #2e2f42;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+}
+.image-background {
+    background-color: #FFFFFF;
 }
 .name-team {
         font-weight: 500;
