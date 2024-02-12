@@ -26,7 +26,7 @@ body {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -50,34 +50,46 @@ body {
 .menu-item-main {
 color: #2e2f42;
 }
-.menu-link-main .link:hover, 
-.menu-link-main .link:focus {
+.menu-item-main:hover,
+.menu-item-main:focus {
+    color: #404bbf;
+}
+.menu-link-main:hover, 
+.menu-link-main:focus {
         color: #404bbf;
 }
-.address {
+.menu-address {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
         color: #434455;
 }
-.menu-link .link:hover, 
-.menu-link .link:focus {
+.menu-link:hover {
+        color: #404bbf;
+} 
+.menu-link:focus {
         color: #404bbf;
 }
-.menu-link .link:active {
+.menu-link-main:active {
         color: #404bbf;
 }
-.contacts-link .link:hover,
-.contacts-link .link:focus {
+.contacts-link:hover {
+        color: #404bbf;
+}
+.contacts-link:focus {
         color: #404bbf;
 }
 /* ======= /main menu style ======= */
 
 /* ======= section  ======= */
 .first-section {
-        background: #2e2f42;
+        background-color: #2e2f42;
 }
+.third-section {
+    background-color: #F4F4FD;
+}
+
 .main-title {
         font-weight: 700;
         font-size: 56px;
@@ -95,8 +107,8 @@ color: #2e2f42;
         color: #fff;
         background: #4d5ae5;
 }
-.order-btn link:hover, 
-.order-btn link:focus {
+.order-btn:hover, 
+.order-btn:focus {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #404bbf;
 }
@@ -125,10 +137,12 @@ color: #2e2f42;
         color: #2e2f42;
 }
 .name-team {
-        font-size: 16px;
-        line-height: 1.5;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
+        color: #2e2f42;
 }
 .description-team {
         font-size: 16px;
@@ -137,9 +151,7 @@ color: #2e2f42;
         text-align: center;
 }
 /* ======= /section  ======= */
-.third-section {
-    background-color: #F4F4FD;
-}
+
 .background-products {
     background-color: #FFFFFF
 }
