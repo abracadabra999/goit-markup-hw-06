@@ -1,8 +1,11 @@
-/* ======= page style ======= */
-ul {
+/* ======= page settings ======= */
+ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
-a {
+a { 
     text-decoration: none;
     color: #434455;
 }
@@ -11,7 +14,47 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6, p {
+        margin-top: 0;
+        margin-bottom: 0;
+}
+button {
+        cursor: pointer;
+}
+img {
+        display: block;
+}
+/* ======= /page settings ======= */
+/* ======= padding settings ======= */
+.container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.first-section {
+        padding-top: 188px;
+        padding-bottom: 292px;
+}
+.first-container {
+        padding-top: 188px;
+        padding-bottom: 292px;
+}
+.section-paddings {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+/* .header-paddings {
+        padding-top: 24px;
+        padding-bottom: 24px;
+} */
 
+.footer-paddings {
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+/* ======= /padding settings ======= */
 /* ======= logo style ======= */
 .logo-color-first {
     color: #4d5ae5;
@@ -27,6 +70,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 .style-logo {
     color: #2e2f42;   
@@ -37,7 +81,30 @@ body {
 /* ======= /logo style ======= */
 
 /* ======= main menu style ======= */
+.page-nav {
+        display: flex;
+        align-items: center;
+}
+.menu-nav {
+        display: flex;
+        column-gap: 40px;
+        
+}
+.address {
+        display: flex;
+        column-gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+}
+.page-header-container {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e7e9fc;
+}
 .menu-link {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -78,6 +145,9 @@ body {
 /* ======= /main menu style ======= */
 
 /* ======= section  ======= */
+.list-section {
+        display: flex;
+}
 .first-section {
         background-color: #2e2f42;
 }
@@ -86,12 +156,14 @@ body {
 }
 
 .main-title {
+        width: 496px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        align-items: center;
 }
 .order-btn {
  
@@ -101,7 +173,6 @@ body {
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
-        cursor: pointer;
 }
 .order-btn:hover, 
 .order-btn:focus {
@@ -151,8 +222,8 @@ body {
 }
 /* ======= /section  ======= */
 
-.background-products {
-    background-color: #FFFFFF
+.products {
+        background-color: #FFFFFF
 }
 .title-portfolio {
         font-weight: 700;
