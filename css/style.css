@@ -241,10 +241,6 @@ img {
         margin-bottom: 72px;
 
 }
-/* .container-list-section {
-        padding: 32px 0 32px;
-        padding-bottom: 32px;
-} */
 .image-background {
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
@@ -259,8 +255,6 @@ img {
 .team-container {
         padding: 32px 0;
         padding-bottom: 32px;
-
-
 }
 .name-team {
         font-weight: 500;
