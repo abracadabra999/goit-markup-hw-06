@@ -94,9 +94,11 @@ img {
         letter-spacing: 0.02em;
         font-style: normal;
         color: #434455;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
-
+.addres-list {
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .page-header-container {
         display: flex;
         justify-content: space-between;
@@ -341,10 +343,11 @@ img {
 
 .social-list-link:hover, .social-list-link:focus {
         background-color: #404bbf;
-        background-color: #31D0AA;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.social-list-icon {
+        fill: #f4f4fd;
+}
 .products {
         display: flex;
         flex-wrap: wrap;
@@ -396,7 +399,7 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         position: relative;
         overflow: hidden;
 }
-.portfolio-overlay:hover, .portfolio-overlay:focus {
+.portfolio-overlay:hover, .portfolio-overlay:focus, .overlay-text {
         transform: translateY(0%);
 }
 .overlay-text {
