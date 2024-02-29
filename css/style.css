@@ -153,9 +153,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .contacts-link:hover, .contacts-link:focus {
         color: #404bbf;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contacts-link {
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* ======= /main menu style ======= */
 
 /* ======= sections  ======= */
@@ -332,13 +334,14 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .social-list-link {
         display: flex;
+        justify-content: center;
         align-items: center;
         width: 40px;
         height: 40px;
         border-radius: 50%;
         background-color: #4D5AE5;
         fill: #4d5ae5;
-        justify-content: center;
+        
 }
 
 .social-list-link:hover, 
@@ -494,7 +497,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 40px;
         border-radius: 50%;
         background-color: #4D5AE5;
-        fill: #4d5ae5;
+     
         justify-content: center;
 }
 .footer-social-link:hover, .footer-social-link:focus {
