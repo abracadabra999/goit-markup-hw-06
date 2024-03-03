@@ -358,13 +358,6 @@ img {
         row-gap: 48px;
         background-color: #FFFFFF;
 }
-/* .product-list:hover, 
-.product-list:focus {
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                        0px 1px 1px rgba(46, 47, 66, 0.16),
-                        0px 2px 1px rgba(46, 47, 66, 0.08);
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .title-portfolio {
         font-weight: 700;
@@ -390,13 +383,14 @@ img {
 .product-list {
         width: 360px;
         height: 420px;
-        box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-list:hover {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.overlay-text:hover .product-list-container:hover {
+.product-list:hover
+.overlay-text {
         transform: translateY(0%);
 }
 .portfolio-overlay {
