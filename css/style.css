@@ -721,6 +721,7 @@ img {
 {
         background-color: #404bbf;
         border: none;
+        fill: #ffffff;
 }
 
 .modal-icon {
@@ -728,9 +729,7 @@ img {
         
 }
 
-.modal-icon:hover, .modal-icon:focus {
-        fill: #ffffff;
-}
+
 
 .checkbox-lable {
         font-family: "Roboto", sans-serif;
