@@ -537,9 +537,6 @@ img {
 
 }
 
-.footer-lable {
-        
-}
 
 .footer-lable-input {
         width: 264px;
@@ -555,7 +552,7 @@ img {
         color: #ffffff;
 }
 .footer-lable-input::placeholder {
-        color #ffffff;
+        color: #ffffff;
 
 }
 
