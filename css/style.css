@@ -613,7 +613,8 @@ img {
 }
 .modal-form-block {
         margin-bottom: 8px;
-        margin-bottom: 16px
+
+        
 }
 
 .icon-form-block {
@@ -625,6 +626,7 @@ img {
         left: 16px;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .modal-text {
         
@@ -804,6 +806,7 @@ img {
 .modal-send-btn:focus
 {
         background: #404bbf;
+        fill: #ffffff;
 }
 
 .is-open {
