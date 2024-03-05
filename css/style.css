@@ -610,9 +610,11 @@ img {
         
 }
 .modal-form-block {
-        margin-bottom: 16px;        
+        margin-bottom: 8px;        
 }
-
+.modal-form-block-comment {
+        margin-bottom: 16px;
+}
 .icon-form-block {
         position: relative;
 }
