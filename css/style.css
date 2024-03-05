@@ -517,6 +517,70 @@ img {
         color: #fff;
         margin-bottom: 16px;
 }
+.subscribe-container {
+        margin-left: 80px;
+}
+
+.subscribe-text {
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+
+}
+
+.footer-form {
+        display: flex;
+        gap: 24px;
+
+}
+
+.footer-lable {
+        
+}
+
+.footer-lable-input {
+        width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #ffffff;
+}
+.footer-lable-input::placeholder {
+        color #ffffff;
+
+}
+
+.footer-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding: 8px 24px;
+        min-width: 165px;
+        height: 40px;
+        background-color: #4d5ae5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+}
+.button-icon {
+        margin-left: 16px;
+}
 /* ======== /footer ======== */
 
 /* ======== BD style ========== */
@@ -540,15 +604,16 @@ img {
         transform: translate(-50%, -50%);
         border-radius: 4px;
         width: 408px;
-        height: 584px;
+        min-height: 584px;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
         background: #fcfcfc;
-        padding-top: 72px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 72px 24px 24px 24px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .modal-form-block {
         margin-bottom: 8px;
+        margin-bottom: 16px
 }
 
 .icon-form-block {
@@ -559,6 +624,7 @@ img {
         top: 50%;
         left: 16px;
         transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
         
@@ -578,6 +644,8 @@ img {
         border-radius: 4px;
         background: transparent;
         padding-left: 38px;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
@@ -608,12 +676,15 @@ img {
         width: 100%;
         height: 120px;
         background: transparent;
+        outline: transparent;
         resize: none;
         padding: 8px 16px;
         font-family: "Roboto", sans-serif;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-massage::placeholder {
         color: rgba(46, 47, 66, 0.4);
@@ -627,10 +698,12 @@ img {
 
 .modal-close-btn {
         position: absolute;
+        display: flex;
         top: 24px;
         right: 24px;
-        border: none;
-        border-radius: 100%;
+        border-radius: 50%;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
         fill: #2e2f42;
         stroke-width: 1px;
         stroke: rgba(0, 0, 0, 0.1);
@@ -640,7 +713,22 @@ img {
         justify-content: center;
         padding: 0;
         line-height: 0;
-        
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover, .modal-close-btn:focus
+{
+        background-color: #404bbf;
+        border: none;
+}
+
+.modal-icon {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon:hover, .modal-icon:focus {
+        fill: #ffffff
 }
 
 .checkbox-lable {
@@ -672,7 +760,9 @@ img {
         cursor: pointer;
         fill: transparent;
         margin-right: 8px;
-        
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+        border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-icon {
         fill: #f4f4fd;
@@ -681,6 +771,8 @@ img {
         background-color: #404bbf;
         border-color: #404bbf;
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
+        fill: #F4F4FD;
 
 }
 .privacy-checkbox:focus +.checkbox-lable .castom-checkbox {
@@ -691,7 +783,7 @@ img {
         display: block;
         border-radius: 4px;
         padding: 16px 32px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
@@ -705,6 +797,7 @@ img {
         margin-left: auto;
         margin-right: auto;
         margin-top: 24px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-send-btn:hover
@@ -719,4 +812,3 @@ img {
 }
 
 /* ======== /BD style ========== */
-/* 250ms cubic-bezier(0.4, 0, 0.2, 1) */
