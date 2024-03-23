@@ -83,6 +83,10 @@ img {
     .container {
         min-width: 1158px;
     }
+    .section-paddings {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
 }
 .is-open {
     opacity: 1;
@@ -268,6 +272,7 @@ color: #404bbf;
 }
 .mobile-menu-container {
     position: relative;
+    padding: 72px 16px 40px;
 }
 
 .mobile-menu {
@@ -314,7 +319,6 @@ color: #404bbf;
 .mobile-menu-nav {
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
     gap: 40px;
     font-weight: 700;
     font-size: 36px;
@@ -341,6 +345,7 @@ color: #404bbf;
 .menu-contacts {
     display: flex;
     flex-direction: column;
+    font-style: normal;
     gap: 24px;
     margin-top: 168px;
     font-weight: 500;
@@ -605,6 +610,7 @@ color: #404bbf;
     .modal {
      width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
     }
 }
 
@@ -767,7 +773,7 @@ color: #434455;
 
 @media only screen and (min-width: 1158px) {
     .second-section {
-        padding: 116px 0 124px 0;
+    padding: 116px 0 124px 0;
     }
     .list-section {
     min-width: 1158px ;
@@ -780,13 +786,10 @@ color: #434455;
     }
 
 .name-plan {
+    font-weight: 500;
     font-size: 20px;
-line-height: 1.2;
-text-align: left;
-}
-}
-.icon-box {
-    display: unset;
+    line-height: 1.2;
+    text-align: left;
 }
 
 .list-section-description {
@@ -810,7 +813,7 @@ text-align: left;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+}
 /* ======= /2 ====== */
 
 /* ======= 3 ====== */
@@ -1005,7 +1008,6 @@ text-align: left;
     flex-wrap: wrap;
     gap: 48px 24px;
 }
-
 }
 
 @media only screen and (min-width: 1158px) {
@@ -1052,7 +1054,7 @@ text-align: left;
 
 .footer-text {
     text-align: center;
-    min-width: 288px;
+    max-width: 288px;
     margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
@@ -1107,8 +1109,6 @@ text-align: left;
 }
 .subscribe-container {
     margin-left: 0;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .subscribe-text {
@@ -1119,7 +1119,6 @@ text-align: left;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-
 }
 
 .footer-form {
@@ -1127,7 +1126,6 @@ text-align: left;
     gap: 24px;
     flex-direction: column;
     align-items: center;
-
 }
 
 .footer-lable-input {
@@ -1143,6 +1141,7 @@ text-align: left;
     border-radius: 4px;
     color: #ffffff;
 }
+
 .footer-lable-input::placeholder {
     color: #ffffff;
 }
@@ -1168,6 +1167,7 @@ text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
+
 .button-icon {
     margin-left: 16px;
 }
